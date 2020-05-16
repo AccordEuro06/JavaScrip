@@ -1,0 +1,16 @@
+#wrapper {
+    position: relative;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#centered {
+    margin: auto;
+    width: 215px;
+    border: 1px solid red;
+    text-align: left;
+}
+.delete:hover{
+    cursor: pointer;
+    color: red;
+}

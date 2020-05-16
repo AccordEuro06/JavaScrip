@@ -1,0 +1,47 @@
+table td {
+    border: 1px solid black;
+    padding: 50px;
+}
+
+table td:hover {
+    cursor: pointer;
+}
+
+div img {
+    height: 200px;
+}
+
+#left,
+#XO,
+#right,
+#uTurn,
+#wTurn {
+    position: absolute;
+    top: 60px;
+}
+
+#XO {
+    left: 450px
+}
+
+#right {
+    left: 800px;
+}
+
+#uTurn {
+    left: 370px;
+}
+
+#wTurn {
+    top: 150px;
+}
+
+
+.Xclass{
+    background-image: url(X.jpg);
+    background-size: 100px 100px;
+}
+.Oclass{
+    background-image: url(O.jpg);
+    background-size: 100px 100px;
+}
