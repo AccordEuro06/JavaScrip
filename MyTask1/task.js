@@ -46,9 +46,10 @@ const People = (function () {
     }
 
     function delPersonName() {
-        let deleted = $('.deleted').closest('li');
+        debugger;
+        let deleted = $(event.target).closest('li');
         let i = $('#list').find('li').index(deleted);
-        names.splice(i, 1);
+        names.splice(i,1);
         render();
     }
     return {
