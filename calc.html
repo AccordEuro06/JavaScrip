@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div>
+        <!-- <input type="text" id="input"> -->
+        <div id="output"></div>
+    </div>
+    
+    <div class="calculator">
+        <input type="text" spellcheck="false" class="calculator_input_text" id="input">
+        <div class="calculator_operations">
+            <div class="operations" id="cos">cos</div>
+            <div class="operations" id="sin">sin</div>
+            <div class="operations" id="sqrt">sqrt</div>
+            <div class="operations" id="power">x^x</div>
+            <div class="operations" id="clean">C</div>
+            <div class="calculator_numbers" id="numberOne">1</div>
+            <div class="calculator_numbers" id="numberTwo">2</div>
+            <div class="calculator_numbers"id="numberThree">3</div>
+            <div class="operations"id="leftBracket">(</div>
+            <div class="operations"id="rightBracket">)</div>
+            <div class="calculator_numbers"id="numberFour">4</div>
+            <div class="calculator_numbers"id="numberFive">5</div>
+            <div class="calculator_numbers"id="numberSix">6</div>
+            <div class="operations"id="devide">/</div>
+            <div class="operations"id="multiply">*</div>
+            <div class="calculator_numbers"id="numberSeven">7</div>
+            <div class="calculator_numbers"id="numberEight">8</div>
+            <div class="calculator_numbers"id="numberNine">9</div>
+            <div class="operations"id="subtraction">-</div>
+            <div class="operations"id="addition">+</div>
+            <div class="calculator_numbers"id="numberDoubleZero">00</div>
+            <div class="calculator_numbers"id="numberZero">0</div>
+            <div class="calculator_numbers"id="numberComa">,</div>
+            <div class="operations"id="summary" onclick="update()">=</div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
