@@ -1,0 +1,33 @@
+.plus{
+    background:  url(images/plus.png)  no-repeat;
+    background-size: 20px;
+    background-position: bottom left;
+}
+.minus{
+    background:  url(images/minus.png)  no-repeat;
+    background-size: 20px;
+    background-position: bottom left;
+}
+
+li{
+    list-style: none;
+    padding: 5px 0 5px 15px;
+    font-size: 18px;
+    font-family: arial , sans-serif;
+    cursor: pointer;
+}
+li::before{
+    content: '' ;
+    background:  url(./images/folder.png)  no-repeat;
+    background-size: 35px;
+    background-position: center;
+    margin: 5px 10px;
+    padding: 11px 20px;
+    
+}
+.plus+ul {
+    display: none;
+}
+.minus+ul {
+    display: block;
+}
