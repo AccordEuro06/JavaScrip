@@ -1,0 +1,28 @@
+#currencyConverter{
+    margin: auto;
+    margin-top: 30px;
+    background-color:rgba(15, 15, 15, 0.2);
+    width: 500px;
+    height: 200px;
+    padding-top: 50px;
+}
+#inputForm, #outputForm{
+    box-sizing: border-box;
+    margin: 10px;
+    position:relative;
+    left:25%;
+}
+#btnConvert{
+    position:relative;
+    top:50%; 
+    left:40%;
+    height: 40px;
+    font-weight: bold;
+}
+#outputCurrency, #currencyDropDownInput{
+    box-sizing: border-box;
+    width: 60px;
+}
+#outputCurrency{
+    pointer-events: none;
+}
