@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.converter {
+    background-color: rgba(25, 25, 25, 0.4);
+    height: 70px;
+    text-align: center;
+}
+
+input {
+    margin-top: 20px;
+    box-sizing: border-box;
+    height: 30px;
+}
+#inputValue{
+    width: 350px;
+    color: black;
+}
+.alertValue{
+    color:red;
+}
+#alert{
+    color: red;
+    position: absolute;
+    top: 140px;
+    left:380px;
+    display: none;
+}
+#btnSubmit {
+    width: 60px;
+}
+
+.currencyWrapper div {
+    /* border: 1px solid black; */
+    width: 500px;
+    margin: 50px auto;
+}
