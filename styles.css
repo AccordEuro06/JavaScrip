@@ -1,0 +1,27 @@
+  h3 {
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  table {
+    display: none;
+    margin: auto;
+    width: 400px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    cursor: pointer;
+  }
+
+  table td {
+    height: 85px;
+    border: 1px solid black;
+  }
+
+  td {
+    background-size: 100% 100%;
+  }
+
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
