@@ -1,0 +1,48 @@
+body {
+  background-color: #c4c4c4;
+}
+
+.keyboard {
+  margin: 30px auto;
+  width: 750px;
+  background-color: white;
+}
+
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.screen {
+  margin: 20px auto;
+  border: 1px solid black;
+  height: 300px;
+  width: 750px;
+  background-color: white;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #c4c4c4;
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.clicked {
+  cursor: pointer;
+  background-color: #797676;
+  width: 45px;
+  height: 45px;
+  margin: 3px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  border-radius: 5px;
+}
